@@ -9,6 +9,7 @@ This document includes three sections:
 3. [Other](#other)
 
 <br>
+
 ## Getting Taxinomos
 
 Currently, there are three ways to add the Taxinomos Extension to your Chrome browser:
