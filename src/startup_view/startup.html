@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="startup.css">
+        <link rel="stylesheet" type="text/css" href="../res/default_styles.css">
+        <script src="../res/js/startup/startup.js"></script>
+        <script src="../res/js/functions.js"></script>
+    </head>
+    <body>
+        <h1 id="title"></h1>
+        <div class="dropdown">
+            <img class ="dropbtn" id="img_settings" src="../res/img/settings.png" height="25" width="25">
+            <div id="settingsDropdown" class="dropdown-content">
+                <a id="link_credentials" href="../setup_view/credentials.html"></a>
+                <a id="link_languages" href="../setup_view/languages.html"></a>
+            </div>
+        </div>
+        <div id="submit_section">
+            <h2 id="message"></h2>
+            <button class="button button_enabled" id="btn_next"></button>
+            <div id="loader_container">
+                <div id="loader"></div>
+            </div>
+        </div>
+    </body>
+</html>

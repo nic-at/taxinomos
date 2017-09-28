@@ -1,0 +1,74 @@
+.button{
+    display: none;
+    float: right;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+#title_text{
+    max-width: 250px;
+    float: left;
+}
+
+#img_success{
+    display: none;
+    float: left;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+#message{
+    clear: both;
+}
+
+#loader_container{
+    float: left;
+    margin-left: 15px;
+    padding-top: 16px;
+}
+
+/****Loader****/
+
+#loader {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 7px solid transparent;
+    border-color: #d6d6d6;
+    border-top-color: #3498db;
+    animation: spin 1.25s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*******************progressbar*******************/
+
+#progress_container{
+    clear: both;
+    height: 20px;
+    background-color: #d3d3d3;
+    border-radius: 3px;
+}
+
+#progress_bar{
+    width: 0%;
+    height: 100%;
+    background-color: green;
+    border-radius: 3px;
+    text-align:center;
+    color: white;
+    font-weight: bold;
+}
+
+#progress_bar_default_text{
+    color: black;
+    font-weight: bold;
+}

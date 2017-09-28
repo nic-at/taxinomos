@@ -1,0 +1,32 @@
+The following chrome.storage.local {key : value} pairs are used:
+Form:
+    keyName : valueType             //description
+                                        //more description
+
+______________________________________________________
+mainCategory : JSON                 //one of the 24 Main Categories. Such an object looks as follows: {"id" : [category_id]}, 
+                                        //{"name" : [category:name]}}, used in the current classification process
+subcategory : int                   //one of the respective Subcategories ID, used in the current classification process
+navigation : string                 //if the user closes the pop-up by clicking on the website itself, the user should be 
+                                        //redirected to the last visited view.
+                                        //Thus navigation contains "[pathToLastVisited].html" as a string.
+navigationMeasurement : string        //Recording the state of the review process
+server_addr : string                //REST Server's configured address
+server_addr_cache : string          //same as server_addr, only that server_addr_cache is used merely temporarily in credentials.js
+bearer_token : string               //configured bearer_token
+bearer_token_cache : string         //same as bearer_token, only that bearer_token_cache is used merely temporarily in credentials.js
+isConfigured : boolean              //true if the plug-in has been configured properly (server url, bearer token, languages)
+secondaryLanguages : String[]       //an array of strings, containing the configured secondary languages codes, i.e.
+                                        // the languages a user is able to understand
+secondaryLanguages_cache : String[] //same as secondaryLangaugs, only that the secondaryLanguages_cache is used merely temporarily in languages.js
+categories : object                 //an array of the main category objects. Such an object looks 
+                                        //as follows: {"id" : [category_id], "name" : [category_name], "desc" : [description],
+                                        //"subcategories" : object[]} 
+                                            //a subcatgory object looks as follows: {"id" : [subcategory_id], "name" : [subcategory_name], 
+                                                                                    "desc" : [description]}
+statuses : object                   //the parsed result of a /status call, stored as follows:  {[status_name] : [status_id]}
+currentSite : object                //the parsed result of a /fetch call, stored 
+                                        //as follows: {"id" : [domain_id], "url" : [url], "domainName" : [domain_name]}
+finalUrl : String                   //contains the final url of the current classification process
+domainCache : object                //stores the same data as currentSite (see above); The difference is that domainCache is used as
+                                        //a cache though

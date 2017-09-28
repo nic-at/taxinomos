@@ -1,0 +1,190 @@
+{
+    "extName" : {
+        "message" : "Taxinomos",
+        "description" : "Name of the extension"
+    },  
+    "extDesc": {
+        "message" : "Taxinomos is a Chrome Extension, designed to be the front-end for the classification of domains.",
+        "description" : "Description of the extension"
+    },
+    "language" : {
+        "message" : "English",
+        "description" : "Name of this language"
+    },
+    "error_msg_default" : {
+        "message" : "There seems to be a problem with the server connection. Make sure that the credentials were entered correctly!",
+        "description" : "A default error msg"
+    },
+    "error_msg_setup" : {
+        "message" : "There seems to be a problem with the server connection. Make sure that the server address you entered was correct and that your device is connected to the internet.",
+        "description" : "The error message that is displayed if the /categories or /statuses rest api call return an error"
+    },
+    "error_msg_401" : {
+        "message" : "Please make sure that the Bearer Token you entered is correct!",
+        "description" : "The error message that is displayed on a 401 error"
+    },
+    "error_msg_404" : {
+        "message" : "The server could not find the requested resource. Please contact your network administrator.",
+        "description" : "The error message that is displayed on a 404 error"
+    },
+    "error_msg_connErr" : {
+        "message" : "There seems to be a problem with the server connection. Please contact your network administrator or try again later.",
+        "description" : "The error message that is displayed ontimeout or onerror"
+    },
+    "back" : {
+        "message" : "Back",
+        "description" : "Title of the back-buttons"
+    },
+    "next" : {
+        "message" : "Next",
+        "description" : "Text of 'next'-buttons"
+    },
+    "go_to_settings" : {
+        "message" : "Please navigate to the settings and make sure your credentials are correct!",
+        "description" : "This text is displayed additionally on error message, when a server error occurs after the extension has been configured successfully already"
+    },
+    "title_cred" : {
+        "message" : "Credentials",
+        "description" : "Title in the 'credentials'-view"
+    },
+    "label_server_url" : {
+        "message" : "Server address",
+        "description" : "Text of the label for the server_url input txt"
+    },
+    "label_token" : {
+        "message" : "Bearer Token",
+        "description" : "Text of the label for the bearer_token input txt"
+    },
+    "img_info_cred" : {
+        "message" : "If you do not have any credentials contact your administrator.",
+        "description" : "Title of the little info image in the credentials view"
+    },
+    "button_next_title_cred" : {
+        "message" : "Please enter your credentials!",
+        "description" : "Title of the 'next'-button in the credentials view"
+    },
+    "title_languages" : {
+        "message" : "Languages",
+        "description" : "Title of 'languages'-view"
+    },
+    "title_working_language" : {
+        "message" : "The following language will be used as a working language:",
+        "description" : "Title of the working language"
+    },
+    "img_info_working_language" : {
+        "message" : "To change the working language you have to change Chrome's default language (enter chrome://settings/languages into your url bar)",
+        "description" : "Title of the working language info img in the 'languages'-view "
+    },
+    "title_sec_language" : {
+        "message" : "I also understand the following languages:",
+        "description" : "Title of the secondary languages in the 'languages'-view"
+    },
+    "img_info_sec_language" : {
+        "message" : "Add the languages you are able to understand!",
+        "description" : "Title of the secondary languages info img in the 'languages'-view"
+    },
+    "btn_next_title_language" : {
+        "message" : "Please add your languages!",
+        "description" : "Title of the next-button in the 'languages'-view"
+    },
+    "title_fin" : {
+        "message" : "Fetching server data",
+        "description" : "Title for the 'finished'-view , when it's loading the categories/statuses"
+    },
+    "message_fin" : {
+        "message" : "This might take a moment. Do not close the Plug-in!",
+        "description" : "Text for the 'finished'-view body, when it's loading the categories/statuses"
+    },
+    "title_fin_loaded" : {
+        "message" : "Done!",
+        "description" : "Text for the 'finished'-view title, when it's done loading"
+    },
+    "message_fin_loaded" : {
+        "message" : "The Plug-in was configured successfully.",
+        "description" : "Text for the 'finished'-view body, when it's done loading"
+    },
+    "settings_title" : {
+        "message" : "Settings",
+        "description" : "Title for the settings in the 'startup'-view"
+    },
+    "message_startup" : {
+        "message" : "Start reviewing websites!",
+        "description" : "Text of the body in the 'startup'-view"
+    },
+    "start" : {
+        "message" : "START",
+        "description" : "Text of the 'next'-button in the 'startup'-view"
+    },
+    "home" : {
+        "message" : "Home",
+        "description" : "Title of the home-button in the measurement-view"
+    },
+    "main_category" : {
+        "message" : "Main Category",
+        "description" : "The word 'main category'"
+    },
+    "subcategory" : {
+        "message" : "Subcategory",
+        "description" : "The word 'subcategory'"
+    },
+    "edit_mainCat" : {
+        "message" : "Edit main category",
+        "description" : "Title of the main category cell at the summary page in the 'selection'-view"
+    },
+    "edit_subcat" : {
+        "message" : "Edit subcategory",
+        "description" : "Title of the subcategory cell at the summary page in the 'selection'-view"
+    },
+    "btn_unsure_text" : {
+        "message" : "I'm not sure",
+        "description" : "Text of the 'unsure'-button"
+    },
+    "btn_unsure_title" : {
+        "message" : "Click this button if you are not sure which category to select!",
+        "description" : "Title of the 'unsure'-button"
+    },
+    "btn_noncomprende_text" : {
+        "message" : "Non comprende",
+        "description" : "Text of the 'noncmprende'-button"
+    },
+    "btn_noncomprende_title" : {
+        "message" : "Click this button if you are unable to understand the website's language!",
+        "description" : "Title of the 'noncomprende'-button"
+    },
+    "btn_exit_text" : {
+        "message" : "Eeek!!",
+        "description" : "Text of the 'panic'-button"
+    },
+    "btn_exit_title" : {
+        "message" : "Did you land on a disturbing site? Use this button as an emergency exit!",
+        "description" : "Title of the 'panic'-button"
+    },
+    "confidence_title" : {
+        "message" : "Tell us how confident you are about this classification!",
+        "description" : "Title of the selection.js confidence section"
+    },
+    "finish" : {
+        "message" : "Finish &nbsp<span style=\"font-weight:normal\">&#10004</span>",
+        "description" : "Text of the 'next'-button in the 'selection'-view"
+    },
+    "confidence_heading" : {
+        "message" : "Submit a Confidence-Level",
+        "description" : "Text of the heading for the confidence rating system"
+    },
+    "confidence_title_disabled" : {
+        "message" : "Please select a category",
+        "description" : "Title of the disabled confidence interface in the 'selection'-view"
+    },
+    "confidence_title_enabled" : {
+        "message" : "How confident are you about your classification? Choose one to five stars (one = very unconfident, five = very confident)",
+        "description" : "Title of the enabled confidence interface in the 'selection'-view"
+    },
+    "title_selection" : {
+        "message" : "Review Website",
+        "description" : "Text of the 'selection'-view title"
+    },
+    "no_subcat" : {
+        "message" : "No subcategory available",
+        "Description" : "Displayed at the summary of the 'selection'-view when there is no corresponding subcategory available for a selected main category"
+    }
+}

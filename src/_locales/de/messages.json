@@ -1,0 +1,140 @@
+{
+    "extName" : {
+        "message" : "Taxinomos"
+    },
+    "extDesc": {
+        "message" :  "Taxinomos ist eine Chrome Erweiterung, entworfen als Front-End für die Klassifizierung von Domains."
+    },
+    "language" : {
+        "message" : "Deutsch"
+    },
+    "error_msg_default" : {
+        "message" : "Es gibt ein Problem mit der Verbindung zum Server. Stellen Sie sicher, dass Ihre Anmeldedaten korrekt eingegeben wurden!"
+    },
+    "error_msg_setup" : {
+        "message" : "Es gab ein Problem mit der Verbindung zum Server. Stellen Sie sicher, dass die Server Adresse, die Sie eingegeben haben, korrekt ist. Überprüfen Sie außerdem ihre Internetverbindung."
+    },
+    "error_msg_401" : {
+        "message" : "Bitte überprüfen Sie die Korrektheit des von ihnen eingegebenen Bearer-Tokens."
+    },
+    "error_msg_404" : {
+        "message" : "Der Server konnte die angeforderte Ressource nicht finden. Bitte kontaktieren Sie Ihren Netzwerkadministrator."
+    },
+    "error_msg_connErr" : {
+        "message" : "Es gab ein Problem mit der Verbindung zum Server. Wenden Sie sich an Ihren Administrator oder versuchen Sie es später erneut!"
+    },
+    "back" : {
+        "message" : "Zurück"
+    },
+    "next" : {
+        "message" : "Weiter"
+    },
+    "go_to_settings" : {
+        "message" : "Bitte gehen Sie zu den Einstellungen und überprüfen Sie Ihre Anmeldedaten!"
+    },
+    "title_cred" : {
+        "message" : "Anmeldedaten"
+    },
+    "label_server_url" : {
+        "message" : "Server Adresse"
+    },
+    "label_token" : {
+        "message" : "Bearer Token"
+    },
+    "img_info_cred" : {
+        "message" : "Falls Sie keine Anmeldedaten besitzen, kontaktieren Sie Ihren Administrator."
+    },
+    "button_next_title_cred" : {
+        "message" : "Bitte geben Sie Ihre Anmeldedaten ein!"
+    },
+    "title_languages" : {
+        "message" : "Spracheinstellungen"
+    },
+    "title_working_language" : {
+        "message" : "Die folgende Sprache wurde als Arbeitssprache erkannt:"
+    },
+    "img_info_working_language" : {
+        "message" : "Um die Arbeitssprache zu ändern, muss die Standardsprache von Google Chrome geändert werden(tippe dazu chrome://settings/languages in die Adresszeile!)"
+    },
+    "title_sec_language" : {
+        "message" : "Ich verstehe außerdem folgende Sprachen:"
+    },
+    "img_info_sec_language" : {
+        "message" : "Fügen Sie die Sprachen hinzu, die Sie verstehen, damit wir wissen, welche Websites wir Ihnen schicken können!"
+    },
+    "btn_next_title_language" : {
+        "message" : "Bitte fügen Sie zuerst Ihre Sprachen hinzu!"
+    },
+    "title_fin" : {
+        "message" : "Hole Server Daten"
+    },
+    "message_fin" : {
+        "message" : "Bitte warten Sie einen Moment und schließen Sie das Plug-in nicht!"
+    },
+    "title_fin_loaded" : {
+        "message" : "Fertig!"
+    },
+    "message_fin_loaded" : {
+        "message" : "Das Plug-in wurde erfolgreich eingerichtet!"
+    },
+    "settings_title" : {
+        "message" : "Einstellungen"
+    },
+    "message_startup" : {
+        "message" : "Los geht's mit dem Kategorisieren!"
+    },
+    "start" : {
+        "message" : "START"
+    },
+    "home" : {
+        "message" : "Home"
+    },
+    "main_category" : {
+        "message" : "Hauptkategorie"
+    },
+    "subcategory" : {
+        "message" : "Unterkategorie"
+    },
+    "edit_mainCat" : {
+        "message" : "Hauptkategorie bearbeiten"
+    },
+    "edit_subcat" : {
+        "message" : "Unterkategorie bearbeiten"
+    }, 
+    "btn_unsure_text" : {
+        "message" : "Unklar"
+    },
+    "btn_unsure_title" : {
+        "message" : "Klicke diesen Button, falls du nicht sicher bist, welche Kategorie auszuwählen ist!"
+    },
+    "btn_noncomprende_text" : {
+        "message" : "Non comprende"
+    },
+    "btn_noncomprende_title" : {
+        "message" : "Klicke diesen Button, falls du die Sprache der Website nicht verstehen kannst!"
+    },
+    "btn_exit_text" : {
+        "message" : "Igitt!!"
+    },
+    "btn_exit_title" : {
+        "message" : "Siehst du etwas, das du nicht sehen möchtest? Klicke diesen Button um diese Seite zu verlassen!"
+    },
+    "finish" : {
+        "message" : "Fertig &nbsp<span style=\"font-weight:normal\">&#10004</span>"
+    },
+    "confidence_heading" : {
+        "message" : "Sende ein Gewissheits-Level"
+    },
+    "confidence_title_disabled" : {
+        "message" : "Bitte wähle eine Kategorie aus"
+    },
+    "confidence_title_enabled" : {
+        "message" : "Gib an, wie sicher du dir bei deiner Kategorisierung bist! Wähle ein bis fünf Sterne (1 Stern = sehr unsicher, 5 Sterne = sehr sicher)"
+    },
+    "title_selection" : {
+        "message" : "Website Kategorisieren"
+    },
+    "no_subcat" : {
+        "message" : "Keine Unterkategorie verfügbar"
+    }
+}

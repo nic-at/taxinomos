@@ -1,0 +1,101 @@
+.button{
+    margin-top: 20px;
+}
+
+#title{
+    text-align: center;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+
+#submit_section{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+body{
+    min-width: 300px;
+}
+
+/**** Loader ****/
+#loader_container{
+    margin-top: 25px;
+}
+
+#loader {
+    visibility: hidden;
+    margin: auto;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 7px solid transparent;
+    border-color: #d6d6d6;
+    border-top-color: #3498db;
+    animation: spin 1.25s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/**** Dropdown Menu ****/
+.dropdown{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.settingsDropdown{
+    position: absolute;
+}
+
+.dropbtn{
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.dropbtn:hover{
+    -webkit-filter: drop-shadow(1px 3px 5px grey); 
+}
+
+.dropbtn:active{
+    -webkit-filter: drop-shadow(1px 3px 5px black);
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content{
+    display: none;
+    position: absolute;
+    top: 31px;
+    right: 1px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-weight: bold;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a{
+    color: black;
+    padding: 4px 8px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover{
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show{
+    display:block;
+}

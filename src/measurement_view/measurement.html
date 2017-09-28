@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="../res/default_styles.css">
+        <link rel="stylesheet" type="text/css" href="measurement.css">
+        <script src="../res/js/functions.js"></script>
+        <script src="../res/js/measurement/measurement.js"></script>
+    </head>
+    <body>
+        <img class="logo" id="img_home" src="../res/img/icon_96.png" width=30px height=30px>
+        <img id="img_back" src="../res/img/back.png" width=30px height=30px>
+        <h1 class="nowrap" id="title"></h1>
+        <div id="link_website_div"><span id="link_website"></span></div>
+        <div id ="content_container">
+            <div id="table_container">
+                <table id="table_mainCategories">
+                    <tbody id="mainCategoryTableBody"></tbody>
+                </table>
+                <table id="table_subcategories">
+                    <tbody id="subcategoryTableBody"></tbody>
+                </table>
+            </div>
+            <div id="summary_container" class="toggleAnimation">
+                <div id="summary_mainCat">
+                    <div class="summary_title" id="summary_mainCat_title"></div>
+                    <div class="summary_cell summary_text" id="summary_mainCat_text"></div> 
+                </div>
+                <div id="summary_subcat">
+                    <div class="summary_title" id="summary_subcat_title"></div>
+                    <div class="summary_cell summary_text" id="summary_subcat_text"></div>
+                </div>
+            </div>
+        </div>
+        <div id="submit_section">
+            <div id="submit_section_left">
+                <button class="button" id="btn_exit"></button>
+                <button class="button" id="btn_noncomprende"></button>
+                <button class="button" id="btn_unsure"></button>
+            </div>
+            <div id="submit_section_right">
+                <div id="loader_container">
+                    <div id="loader"></div>
+                </div>
+                <div id="confidence_container">
+                    <h3 id="confidence_title"></h3>
+                    <div id="confidence" class="confidence_disabled">
+                        <span id="five_stars" class="star star_disabled fill-letter">&#9734</span><span id="four_stars" class="star star_disabled fill-letter">&#9734</span><span id="three_stars" class="star star_disabled">&#9734</span><span id="two_stars" class="star star_disabled">&#9734</span><span id="one_star" class="star star_disabled">&#9734</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
