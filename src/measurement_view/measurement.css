@@ -299,15 +299,16 @@ h3 {
     direction: rtl;
     margin-top: 3px;
     text-align: center;
-    color: Green;
+    color: #070;
     border-radius:10px;
     font-weight:bold;
-    background-color:#ababab;
+    background-color:#0a0;
     font-size: 40px;
 }
 
 .confidence_disabled{
-    color: DimGray !important;
+    color: #999 !important;
+    background-color: #bbb !important;
 }
 
 #confidence > span {
