@@ -105,7 +105,7 @@ function storeCategories(categoryObject, params){
 
     //Prepare the categories
     var length = categoryObject.data.length;
-    for (var i = 1; i < length; i++){
+    for (var i = 0; i < length; i++){
         categoriesFull.push(categoryObject.data[i]);
     }
 
